@@ -19,6 +19,11 @@ public class EmpleadoAsalariado extends Empleado {
     public void setSueldoMensual(double sueldoMensual) {
         this.sueldoMensual = sueldoMensual;
     }
+
+    @Override
+    public int calcularSalario() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     
     

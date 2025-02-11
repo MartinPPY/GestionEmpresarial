@@ -18,6 +18,11 @@ public class EmpleadoContratista extends Empleado {
     public void setPagoPorProyecto(double pagoPorProyecto) {
         this.pagoPorProyecto = pagoPorProyecto;
     }
+
+    @Override
+    public int calcularSalario() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     
     

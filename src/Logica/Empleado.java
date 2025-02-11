@@ -91,6 +91,8 @@ public abstract class Empleado {
     public void setIdDepartamento(int idDepartamento) {
         this.idDepartamento = idDepartamento;
     }
+    
+    public abstract int calcularSalario();
 
 
     
