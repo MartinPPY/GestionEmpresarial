@@ -16,10 +16,10 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        jtfEmail = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jPasswordField1 = new javax.swing.JPasswordField();
+        jBLogin = new javax.swing.JButton();
+        jPContrasenna = new javax.swing.JPasswordField();
         jPanel2 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -38,18 +38,18 @@ public class Pantalla extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Consolas", 0, 14)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("Usuario");
+        jLabel3.setText("Correo Electrónico");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 600, -1));
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 300, 30));
+        jPanel1.add(jtfEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 300, 30));
 
         jLabel4.setFont(new java.awt.Font("Consolas", 0, 14)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("contraseña");
+        jLabel4.setText("Contraseña");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 600, -1));
 
-        jButton1.setText("jButton1");
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 280, 300, 30));
-        jPanel1.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 300, 30));
+        jBLogin.setText("Acceder");
+        jPanel1.add(jBLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 280, 300, 30));
+        jPanel1.add(jPContrasenna, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 300, 30));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -78,14 +78,14 @@ public class Pantalla extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jBLogin;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JPasswordField jPContrasenna;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jtfEmail;
     // End of variables declaration//GEN-END:variables
 }
